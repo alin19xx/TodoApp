@@ -16,7 +16,6 @@
 		C76232A82B4B3D6F0075DC43 /* TodoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76232A72B4B3D6F0075DC43 /* TodoAppTests.swift */; };
 		C76232B22B4B3D700075DC43 /* Todo_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76232B12B4B3D700075DC43 /* Todo_AppUITests.swift */; };
 		C76232B42B4B3D700075DC43 /* Todo_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76232B32B4B3D700075DC43 /* Todo_AppUITestsLaunchTests.swift */; };
-		C76232C12B4B46490075DC43 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C76232C02B4B46490075DC43 /* GoogleService-Info.plist */; };
 		C76232C52B4B47DF0075DC43 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C76232C42B4B47DE0075DC43 /* FirebaseAuth */; };
 		C76232C72B4B47DF0075DC43 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C76232C62B4B47DF0075DC43 /* FirebaseFirestore */; };
 		C76232C92B4B47DF0075DC43 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C76232C82B4B47DF0075DC43 /* FirebaseFirestoreSwift */; };
@@ -61,7 +60,6 @@
 		C76232AD2B4B3D700075DC43 /* Todo_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Todo_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C76232B12B4B3D700075DC43 /* Todo_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_AppUITests.swift; sourceTree = "<group>"; };
 		C76232B32B4B3D700075DC43 /* Todo_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C76232C02B4B46490075DC43 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C76232D32B4DE04F0075DC43 /* FirebaseAuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthenticationService.swift; sourceTree = "<group>"; };
 		C76232D52B4F13DC0075DC43 /* CombineFirebaseDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineFirebaseDataService.swift; sourceTree = "<group>"; };
 		C76232D72B4F1F550075DC43 /* CombineTodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineTodoListView.swift; sourceTree = "<group>"; };
@@ -128,7 +126,6 @@
 				C76232E22B51B0BA0075DC43 /* Data */,
 				C76232CF2B4DD59A0075DC43 /* Scene */,
 				C76232CE2B4DD5910075DC43 /* App */,
-				C76232C02B4B46490075DC43 /* GoogleService-Info.plist */,
 				C762329A2B4B3D6F0075DC43 /* Assets.xcassets */,
 				C762329C2B4B3D6F0075DC43 /* Preview Content */,
 			);
@@ -346,7 +343,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C762329E2B4B3D6F0075DC43 /* Preview Assets.xcassets in Resources */,
-				C76232C12B4B46490075DC43 /* GoogleService-Info.plist in Resources */,
 				C762329B2B4B3D6F0075DC43 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

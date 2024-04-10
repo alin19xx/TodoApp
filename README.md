@@ -2,7 +2,7 @@
 
 ## Architecture and Design
 
-The Todo List app uses a **MVVM (Model-View-ViewModel)** architecture design combined with the **Observer pattern**, implemented through the use of **Combine** and **SwiftUI**. This architecture allows for a clear separation of responsibilities and facilitates reactive communication between the user interface and the underlying application state.
+The Todo List app uses a **MVVM (Model-View-ViewModel)** architecture design combined with the **Observer pattern**, implemented through the use of **Combine** and **SwiftUI**. This architecture allows for a clear separation of responsibilities and facilitates reactive communication between the user interface and the application state.
 
 ### Key Components
 
